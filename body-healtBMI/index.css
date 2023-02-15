@@ -1,0 +1,97 @@
+.maindiv{
+   width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: rgb(53, 52, 52);
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+}
+.body{
+    background-color: rgb(53, 52, 52);
+}
+.h1{
+    font-size:50px;
+   
+}
+.inp{
+    display: flex;
+}
+.inputone{
+    width:400px;
+    height:25px;
+    border-radius:5px;
+}
+.inputtwo{
+    width:400px;
+    height:25px;
+    border-radius:5px;
+}
+.calrest{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.CALCULATE{
+    padding-right:70px;
+    width: 125px;
+}
+.RESET{
+   height: 30px;
+   background-color:red ;
+   border-radius: 15px;
+}
+.weight{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    
+}
+.weight1{
+    width: 10%;
+    height:100px;
+    background-color: rgb(18, 121, 232);
+    text-align: center;
+    
+   
+}
+.weight2{
+    width: 10%;
+    height: 100px;
+    background-color: rgb(80, 242, 188);
+    text-align: center;
+}
+.weight3{
+    width: 10%;
+    height: 100px;
+    background-color: orange;
+    text-align: center;
+}
+
+.weight4{
+    width: 10%;
+    height: 100px;
+    background-color: red;
+    text-align: center;
+}
+.mt3{
+    margin-top: 30px;
+}
+.pp{
+    font-size: 30px; font-weight:bold;
+}
+.ppp{
+    font-size:30px; color: rgb(39, 98, 48); font-weight: 900;
+}
+.CALCULATE1{
+    border-radius: 20px; width: 95px; border: 0; height:30px; background-color: rgb(36, 33, 184); color: aliceblue;
+    width:175px;
+    height: 40px;
+}
+.RESET1{
+    border: 0; border-radius:20px; width: 95px; height: 30px; background-color: red; color: aliceblue;
+    width: 175px;
+    height: 40px;
+
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="body">
+
+<div class="maindiv" >
+    <div class="h1c"><h1 class="h1">BMI Calculater</h1></div>
+    <div>
+      <p>Weight (kg)</p>  <input class="inputone" id="inputone" type="number" >
+       <p>Height (m)</p> <input class="inputtwo" id="inputtwo" type="number" >
+    </div>
+    <div class="calrest">
+        <div class="CALCULATE "><button onclick="myfunction();" id="btn1" class="CALCULATE1">CALCULATE</button></div>
+        <div class="RESET "><button onclick="myReset();" id="btn2" class="RESET1" type="reset">RESET</button></div>
+    </div>
+    <div>
+        <p class="pp" id="number">...</p>
+        <p class="ppp" id="weight">Waiting For Response</p>
+    </div>
+
+    <div class="weight">
+        <div class="weight1"><p class="mt3">Under Weight<br>18.5</p></div>
+        <div class="weight2"><p class="mt3">Normal<br> 18.5-25</p></div>
+        <div class="weight3"><p class="mt3">Over Weight <br>25-30</p></div>
+        <div class="weight4"><p class="mt3">Obese <br>>30</p></div>
+    </div>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
